@@ -7,6 +7,6 @@ This package includes tools to create a common library of REXX routines to perfo
 
 Routines are inserted immediately following the comment line in the original file by typing INLINE at the XEDIT command line. 
 
-The BLDMAC command builds a CMS MACLIB (default EXECLIB MACLIB) from a series of <membername> COPY files. The first line of each COPY file must be COPY <membername> or MACRO <membername>, See the description of the CMS MACLIB command for more information on the difference between COPY and MACRO.
+The BLDMAC command builds a CMS MACLIB (default EXECLIB MACLIB) from a series of <membername> COPY files. The first line of each COPY file must be *COPY <membername> or *MACRO <membername>, See the description of the CMS MACLIB command for more information on the difference between *COPY and *MACRO.
 
 
